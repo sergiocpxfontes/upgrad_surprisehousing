@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Surprise Housing
+> This project aims to utilize machine learning techniques to predict the actual value of the prospective properties and decide whether to invest in them or not. Its based on a regression model that uses regularization. Linear Regression, Ridge Regression and Lasso Regression are used and compared.
 
 
 ## Table of Contents
