@@ -50,7 +50,7 @@ On the model building stage:
  - The best hyperparameter for Ridge Regression was 100.
 - The Lasso regression model resulted in R2 scores of 94% and 47% on training and test data respectivly. 
  - The best hyperparameter for Lasso Regression was 500.
-- GrLivArea, OverallQuality, YearBuilt and PoolQC_Gd seem to have a big inpact on SalePrice:
+- GrLivArea, OverallQuality, YearBuilt and PoolQC_Gd seem to have a big impact on the price:
  - GrLivArea (Above grade (ground) living area square feet) has a positive impact;
  - OverallQuality (ates the overall material and finish of the house) when above 5 (average) as positive impact when bellow as a negative impact
  - YearBuilt has a positive impact;
