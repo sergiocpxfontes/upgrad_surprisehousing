@@ -45,12 +45,18 @@ On the model building stage:
 
 ## Conclusions
 - The linear regression model is overfitting when comparing the R2 on the test and training data.
--   When we applied the regression model to the numerical variables only we got a R2 score of 78% but an huge RSS. After the residual analisys we can see that non-linearity is present on the data but we could not found derived variables (using log, exp or square) that would fit the conditions of linear regression   
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- The best hyperparameter for Ridge Regression was 100
-- The best hyperparameter for Lasso Regression was 500
-- 
+ - When we applied the regression model to the numerical variables only we got a R2 score of 78% but an huge RSS. After the residual analisys we can see that non-linearity is present on the data but we could not found derived variables (using log, exp or square) that would fit the conditions of linear regression.
+ - The dummy variables handling resulted in a dataset of 290 columns and after correlation analisys using heatmaps it was possible to reduce the the data set to 267.   
+- The Ridge regression model resulted in R2 scores of 94% and 68% on training and test data respectivly.
+ - The best hyperparameter for Ridge Regression was 100.
+- The Lasso regression model resulted in R2 scores of 94% and 47% on training and test data respectivly. 
+ - The best hyperparameter for Lasso Regression was 500.
+- GrLivArea, OverallQuality, YearBuilt and PoolQC_Gd seem to have a big inpact on SalePrice:
+ - GrLivArea (Above grade (ground) living area square feet) has a positive impact;
+ - OverallQuality (ates the overall material and finish of the house) when above 5 (average) as positive impact when bellow as a negative impact
+ - YearBuilt has a positive impact;
+ - PoolQC strangely seems to have a negative impact on the price. 
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
