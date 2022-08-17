@@ -41,6 +41,7 @@ On the model building stage:
  - Lasso Regression Model was built
  - GridSearchCV for cross validation
 
+MISSING link to jupyter notebook file
 
 ## Conclusions
 - The linear regression model is overfitting when comparing the R2 on the test and training data.
@@ -56,6 +57,7 @@ On the model building stage:
  - YearBuilt has a positive impact;
  - PoolQC strangely seems to have a negative impact on the price. 
 
+Its clear that the models are overfititng, the degradation of the R2 scores from trainig to test data and the values of the RSS confirm it. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
