@@ -52,7 +52,7 @@ On the model building stage:
  - The best hyperparameter for Lasso Regression was 500.
 - GrLivArea, OverallQuality, YearBuilt and PoolQC_Gd seem to have a big impact on the price:
  - GrLivArea (Above grade (ground) living area square feet) has a positive impact;
- - OverallQuality (ates the overall material and finish of the house) when above 5 (average) as positive impact when bellow as a negative impact
+ - OverallQuality (Rates the overall material and finish of the house) when above 5 (average) as positive impact when bellow as a negative impact
  - YearBuilt has a positive impact;
  - PoolQC strangely seems to have a negative impact on the price. 
 
