@@ -11,10 +11,8 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price.
+- The company is looking at prospective properties to buy to enter the market. For the same purpose, the company has collected a [data set](train.csv) from the sale of houses in Australia. A detailed explanation of the data set can be found [here](data_description.txt)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
