@@ -42,7 +42,7 @@ On the model building stage:
  - Lasso Regression Model was built
  - GridSearchCV for cross validation
 
- A detailed explanation of the data set can be found [here](data_description.txt)
+On the [Jupyter notebook file](housing_market.ipynb) you will find all the above mentioned actions and the calculations used to present the [conclusions](#conclusions) and [final notes](#final-notes).
 
 ## Conclusions
 - The linear regression model is overfitting when comparing the R2 on the test and training data.
