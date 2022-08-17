@@ -18,13 +18,39 @@
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 ## Analysis
-- Conclusion 1 from the analysis
+
+During our analisys we executed a set of actions that we describe briefly bellow:
+
+- Data inspection
+- Null values handling
+- Dummy variables processing
+- Derived variables calculation
+- Residual error analisys for numerical variables
+- Correlation between dummy variables studies
+- Outliers replacement
+- Data cleanup
+
+These actions allowed us to prepare the data set for Model Building.
+
+On the model building stage:
+
+ - the data set was split into 2 sets (independent variables and SalesPrice, what we want to predict)
+ - the independent variables set was scaled
+ - Training and Test sets created with a 70:30 ratio
+ - Linear Regression Model was built
+ - Ridge Regression Model was built
+ - Lasso Regression Model was built
+ - GridSearchCV for cross validation
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
+- The linear regression model is overfitting when comparing the R2 on the test and training data.
+-   When we applied the regression model to the numerical variables only we got a R2 score of 78% but an huge RSS. After the residual analisys we can see that non-linearity is present on the data but we could not found derived variables (using log, exp or square) that would fit the conditions of linear regression   
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The best hyperparameter for Ridge Regression was 100
+- The best hyperparameter for Lasso Regression was 500
+- 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
