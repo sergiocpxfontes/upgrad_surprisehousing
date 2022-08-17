@@ -49,9 +49,9 @@ On the [Jupyter notebook file](housing_market.ipynb) you will find all the above
  - When we applied the regression model to the numerical variables only we got a R2 score of 78% but an huge RSS. After the residual analisys we can see that non-linearity is present on the data but we could not found derived variables (using log, exp or square) that would fit the conditions of linear regression.
  - The dummy variables handling resulted in a dataset of 290 columns and after correlation analisys using heatmaps it was possible to reduce the the data set to 267.   
 - The Ridge regression model resulted in R2 scores of 94% and 68% on training and test data respectivly.
- - The best hyperparameter for Ridge Regression was 100.
+ - The optimal value of alpha for Ridge Regression was 100 (based on the values considered and present on the jupyter notebook file).
 - The Lasso regression model resulted in R2 scores of 94% and 47% on training and test data respectivly. 
- - The best hyperparameter for Lasso Regression was 500.
+ - The optimal value of alpha for Lasso Regression was 500 (based on the values considered and present on the jupyter notebook file).
 - GrLivArea, OverallQuality, YearBuilt and PoolQC_Gd seem to have a big impact on the price:
  - GrLivArea (Above grade (ground) living area square feet) has a positive impact;
  - OverallQuality (Rates the overall material and finish of the house) when above 5 (average) as positive impact when bellow as a negative impact
