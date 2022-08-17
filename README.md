@@ -21,26 +21,26 @@
 
 During our analisys we executed a set of actions that we describe briefly bellow:
 
-- Data inspection
-- Null values handling
-- Dummy variables processing
-- Derived variables calculation
-- Residual error analisys for numerical variables
-- Correlation between dummy variables studies
-- Outliers replacement
-- Data cleanup
+- Data inspection.
+- Null values handling.
+- Dummy variables processing.
+- Derived variables calculation.
+- Residual error analisys for numerical variables.
+- Correlation between dummy variables studies.
+- Outliers replacement.
+- Data cleanup.
 
 These actions allowed us to prepare the data set for Model Building.
 
 On the model building stage:
 
- - the data set was split into 2 sets (independent variables and SalesPrice, what we want to predict)
- - The independent variables set was scaled
- - Training and Test sets created with a 70:30 ratio
- - Linear Regression Model was built
- - Ridge Regression Model was built
- - Lasso Regression Model was built
- - GridSearchCV for cross validation
+ - the data set was split into 2 sets (independent variables and SalesPrice, what we want to predict).
+ - The independent variables set was scaled.
+ - Training and Test sets created with a 70:30 ratio.
+ - Linear Regression Model was built.
+ - Ridge Regression Model was built.
+ - Lasso Regression Model was built.
+ - GridSearchCV for cross validation.
 
 On the [Jupyter notebook file](housing_market.ipynb) you will find all the above mentioned actions and the calculations used to present the [conclusions](#conclusions) and [final notes](#final-notes).
 
@@ -61,8 +61,13 @@ On the [Jupyter notebook file](housing_market.ipynb) you will find all the above
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 ## Final Notes
 
-Its clear that the models are overfititng, the degradation of the R2 scores from trainig to test data and the values of the RSS confirm it. 
+The conclusions mentioned on the previous section result of what was observer but:
 
+- Its clear that the models are overfititng, the degradation of the R2 scores from trainig to test data and the values of the RSS confirms it:
+ - The best model its the one that reduces the RSS and this was not the case.
+- It will be necessary to review again the independent variables identify colinearity and determine witch ones don't bring any added value to the models.
+- A possible way to start would bee to look at the variables where the Lasso Regression determined coefiecient of 0 value.
+- Outliers need to be better identified and handled.
 
 ## Technologies Used
 - Library - Pandas 1.4.1
