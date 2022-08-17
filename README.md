@@ -7,7 +7,6 @@
 * [Technologies Used](#technologies-used)
 * [Analisys](#analisys)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -35,7 +34,7 @@ These actions allowed us to prepare the data set for Model Building.
 On the model building stage:
 
  - the data set was split into 2 sets (independent variables and SalesPrice, what we want to predict)
- - the independent variables set was scaled
+ - The independent variables set was scaled
  - Training and Test sets created with a 70:30 ratio
  - Linear Regression Model was built
  - Ridge Regression Model was built
@@ -68,13 +67,6 @@ On the model building stage:
 - Library - MatplotLib
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
 Created by [@sergiocpxfontes] - feel free to contact me!
